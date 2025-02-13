@@ -13,13 +13,13 @@ This guide is to help setup a very basic CMake project for C++ projects.
 
 Create project directory:
 
-```sh
+```bash
 mkdir my_project
 ```
 
 Navigate into project:
 
-```sh
+```bash
 cd my_project
 ```
 
@@ -27,7 +27,7 @@ cd my_project
 
 Create `CMakeLists.txt` in the root of the project:
 
-```sh
+```bash
 touch CmakeLists.txt
 ```
 
@@ -48,7 +48,7 @@ add_executable(prog main.cpp)
 
 Create `main.cpp` in the root of the project:
 
-```sh
+```bash
 touch main.cpp
 ```
 
@@ -67,7 +67,7 @@ int main() {
 
 Create the `build` directory in the root of the project:
 
-```sh
+```bash
 mkdir build
 ```
 
@@ -75,19 +75,19 @@ mkdir build
 
 Navigate into the `build` directory:
 
-```sh
+```bash
 cd build
 ```
 
 Generate build system files:
 
-```sh
+```bash
 cmake ..
 ```
 
 Build the project:
 
-```sh
+```bash
 cmake --build .
 ```
 
@@ -95,7 +95,7 @@ cmake --build .
 
 You should be able to see a `prog` binary. Try running it:
 
-```sh
+```bash
 ./prog
 ```
 
